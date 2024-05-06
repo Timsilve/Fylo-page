@@ -1,0 +1,84 @@
+   @font-face {
+  font-family: 'YoungSerif';
+  src: url('/food recipe/YoungSerif-Regular.ttf');
+}
+
+body{
+  background-color: floralwhite;
+  /*font-family: 'Courier New', Courier, monospace*/
+  font-family:'Regular';
+ 
+ }
+ 
+ h1 {
+   font-weight: lighter;
+font-family: 'YoungSerif'
+ }
+
+h2 {
+  color: darkred;
+  font-weight: lighter;
+  font-family: 'youngserif';
+}
+
+.background {
+  max-width: 500px;
+  background-color: white;
+  border-radius: 15px;
+  margin: 100px auto;
+  padding : 1.5rem;
+}
+
+img{
+  max-width: 500px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.preparation {
+  background-color: #F6B9D880;
+  padding: 0.1rem;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.preparation h2 {
+  color:#B6A0EA ;
+  margin-left: 18px;
+}
+
+.preparation li {
+  margin: 15px 0;
+}
+
+.ingredients, li {
+  margin: 10px 0;
+}
+
+/*.ingredients li {
+  margin: 10px;
+}
+*/
+
+.instructions  {
+  margin: 25px 0;
+}
+
+.instructions li {
+  margin: 5px 0;
+}
+
+.nutrition {
+  margin: 30px 0;
+}
+
+
+.p {
+  display: flex;
+  justify-content: space-around;
+}
+
+.red {
+  color: darkred;
+}
+
