@@ -1,0 +1,55 @@
+h1 {
+  text-align: center;
+}
+
+a {
+ display: flex;
+ justify-content: center;
+ text-transform: uppercase;
+ text-decoration: none;
+ cursor: pointer;
+ font-size: 30px;
+}
+
+div {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+table {
+  background-color: grey;
+  padding: 1.5rem 1rem;
+  box-shadow: 0 8px #6F707B;
+  border-radius: 30px;
+  max-width: 500px;
+}
+
+table input {
+  width: 100%;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  background-color: #E6E7F1;
+  outline: none;
+  box-shadow:0 8px #9EA0B7;
+  border-radius: 10px;
+  border: 0;
+  text-align: right;
+ font-size: 20px;
+}
+
+table button {
+  height: 60px;
+  width: 60px;
+  /*padding: 10px;*/
+  box-shadow: 0 4px #BFC1D9;
+  border-radius: 10px;
+ border: 0;
+ margin: 5px;
+ font-size: 30px;
+ font-weight: bold;
+}
+
+#equal {
+  background-color: #F0873D;
+  box-shadow:0 4px #EC975C;
+}
