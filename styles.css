@@ -134,10 +134,8 @@ form {
   max-width: 100%;
 }
 
-.arrow {
-  position: absolute;
-  top: 798px;
-}
+
+
 
 .underline {
   color: hsl(170, 45%, 43%);
@@ -324,6 +322,8 @@ article {
 article p {
   text-align: left;
 }
+
+
 
 .section3 h2,p {
   text-align: center;
