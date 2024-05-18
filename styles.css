@@ -238,15 +238,21 @@ footer li img {
   }
   
   header {
-    margin-top: 15px;
-    font-size: 10px;
+    margin: 15px 0 50px 0;
+    font-size: 11px;
     font-family: Raleway;
+   /* display: flex;
+    justify-content: space-between;*/
   }
   
   nav img {
     width: 80px;
     
+   margin-left: -30px;
+   margin-right: 20px;
   }
+  
+ 
   
   nav ul li {
     margin: 9px;
@@ -296,7 +302,7 @@ footer li img {
 }
 
 article {
-  width: 300px;
+  width: 18.75rem;
   margin:40px auto;
   padding: 10px;
 }
