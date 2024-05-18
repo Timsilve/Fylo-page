@@ -127,10 +127,16 @@ form {
 .sect2-img {
   max-width: 100%;
   height: auto;
+  
 }
 
 .section2 a img {
   max-width: 100%;
+}
+
+.arrow {
+  position: absolute;
+  top: 798px;
 }
 
 .underline {
