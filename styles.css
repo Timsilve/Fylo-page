@@ -5,9 +5,11 @@
 }
 
 body {
-  font-family: "", sans-serif;
-  
+  font-family: "open sans", sans-serif;
+  font-size: 16px;
 }
+
+
 
 header {
   margin: 20px 0;
@@ -66,7 +68,7 @@ form {
   margin-bottom: 20px;
 }
 
-.section1 p{ font-size: 14px}
+
 
 .section1 img {
   height: auto;
