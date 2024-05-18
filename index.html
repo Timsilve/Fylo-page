@@ -1,50 +1,131 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Basic calculator</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+
+<link rel="stylesheet" href="styles.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+  
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
 </head>
-
 <body>
-  <h1>Functional Basic Calculator</h1>
-  <a href="https://github.com/Timsilve/Zuri-calculator">Link to repository</a>
-  <div>
-    
+  <header>
+    <nav>
+    <img src="images/logo.svg" alt="">
+    <ul>
+      <li>Features</li>
+      <li>Team</li>
+      <li>Sign In</li>
+    </ul>
+  </nav>
+  </header>
+  <main>
+    <section class="section1">
+      <div>
+        <h1>All your files in one secure location, accessible anywhere.</h1>
+        <p>Fylo stores your most important files in one secure location. 
+  Access them wherever you need, share and collaborate with friends, 
+  family, and co-workers.</p>
+  <form action="">
+    <input type="text" placeholder="Enter Your Email" required minlength="8">
+    <button type="submit">Get Started</button>
+  </form>
+      </div>
+      <div>
+        <img src="images/illustration-1.svg" alt="">
+      </div>
+    </section>
 
-<table>
-  <tr>
-    <td colspan="4"><input type="text" id="display"></td>
-  </tr>
-  <tr>
-    <td><button onclick="addToDisplay('7')">7</button></td>
-    <td><button onclick="addToDisplay('8')">8</button></td>
-    <td><button onclick="addToDisplay('9')">9</button></td>
-    <td><button onclick="addToDisplay('/')">/</button></td>
-  </tr>
-   <tr>
-    <td><button onclick="addToDisplay('4')">4</button></td>
-    <td><button onclick="addToDisplay('5')">5</button></td>
-    <td><button onclick="addToDisplay('6')">6</button></td>
-    <td><button onclick="addToDisplay('*')">*</button></td>
-  </tr>
-   <tr>
-    <td><button onclick="addToDisplay('1')">1</button></td>
-    <td><button onclick="addToDisplay('2')">2</button></td>
-    <td><button onclick="addToDisplay('3')">3</button></td>
-    <td><button onclick="addToDisplay('-')">-</button></td>
-  </tr>
-   <tr>
-    <td><button onclick="addToDisplay('0')">0</button></td>
-    <td><button onclick="addToDisplay('.')">.</button></td>
-    <td><button onclick="addToDisplay('+')">+</button></td>
-    <td><button onclick="calculate('=')" id="equal">=</button></td>
-  </tr>
-</table>  
+    <section class="section2">
+          <!--<img src="images/bg-curve-desktop.svg" alt="" class="curve">-->
+      
+      <div>
+        <h1>Stay productive, wherever you are</h1>
+        <p>Never let location be an issue when accessing your files. Fylo has you 
+  covered for all of your file storage needs.
+  </p>
+<p>Securely share files and folders with friends, family and colleagues for 
+  live collaboration. No email attachments required!</p>
+<p class="underline"><u>See how Fylo works
+  <img src="images/icon-arrow.svg" alt=""></u></p>
+  <article>
+    <div>
+       <img src="images/icon-quotes.svg" alt="">
+    <p>Fylo has improved our team productivity by an order of magnitude. Since 
+  making the switch our team has become a well-oiled collaboration machine.
+</p>
+    </div>
+         
+<div class="person">
+  <img src="images/avatar-testimonial.jpg" alt="testimonial">
+  
+    <h6>Kyle Burton, <br>
+      <span >Founder & CEO, Huddle</span></h6>
+  
 </div>
-</body>
+  </article>
+      </div>
+      <div>
+    <img src="images/illustration-2.svg" alt="" class="sect2-img">
+  </div>
+    </section>
+    <section class="section3">
+      <div>
+        <h2>
+          Get early access today
+        </h2>
+        <p>It only takes a minute to sign up and our free starter tier is extremely generous. 
+  If you have any questions, our support team  would be happy to help you.
+</p>
+      </div>
+      <div>
+        <form action="">
+          <input type="text" placeholder="email@example" min="8" required>
+          <button type="submit">Get Started For Free</button>
+        </form>
+      </div>
+    </section>
 
+  </main>
+      <footer>
+   <img src="images/logo.svg" alt="" class="logo">
+   <div>
+     
+     <ul>
+       <li><img src="images/icon-phone.svg" alt="phone">Phone: +1-543-123-4567</li>
+       <li><img src="images/icon-email.svg" alt="email">example@fylo.com</li>
+     </ul>
+     <ul>
+       <li>About Us</li>
+       <li>Jobs</li>
+       <li>Press</li>
+       <li>Blog</li>
+     </ul>
+     <ul>
+       <li>Contact Us</li>
+       <li>Terms</li>
+       <li>Privacy</li>
+     </ul>
+     <ul class="img">
+       <li><img src="images/icons8-facebook.svg" alt=""></li>
+       <li><img src="images/icons8-twitterx.svg" alt=""></li>
+       <li><img src="images/icons8-instagram.svg" alt=""></li>
+     </ul>
+   </div>
+     </footer>
+</body>
 </html>
