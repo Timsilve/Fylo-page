@@ -6,10 +6,12 @@
 
 body {
   font-family: "open sans", sans-serif;
-  font-size: 16px;
+  
 }
 
-
+p {
+  font-size: 20px
+}
 
 header {
   margin: 20px 0;
