@@ -10,7 +10,7 @@ body {
 }
 
 p {
-  font-size: 20px
+  font-size: 16px
 }
 
 header {
@@ -78,7 +78,7 @@ form {
 }
 
 .section1 input {
-  padding: 7px 10px;
+  padding: 7px 70px 7px 7px;
   border-radius: 3px;
   border: 1px solid hsl(0, 0%, 75%);
   margin-right: 15px;
